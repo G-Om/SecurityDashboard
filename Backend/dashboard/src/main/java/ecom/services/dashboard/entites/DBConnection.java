@@ -28,5 +28,5 @@ public class DBConnection {
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "microservice_id", nullable = false)
-    private MicroService microservice;
+    private Microservice microservice;
 }

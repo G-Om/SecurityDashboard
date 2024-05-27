@@ -2,7 +2,6 @@ package ecom.services.dashboard.entites;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -11,7 +10,7 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
-public class MicroService {
+public class Microservice {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

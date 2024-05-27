@@ -29,6 +29,6 @@ public class ServiceDependency {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "microservice_id", nullable = false)
-    private MicroService microservice;
+    private Microservice microservice;
 
 }
